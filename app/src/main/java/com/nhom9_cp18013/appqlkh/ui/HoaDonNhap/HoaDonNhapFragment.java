@@ -1,4 +1,4 @@
-package com.nhom9_cp18013.appqlkh.ui.KhachHang;
+package com.nhom9_cp18013.appqlkh.ui.HoaDonNhap;
 
 import android.os.Bundle;
 
@@ -11,15 +11,13 @@ import android.view.ViewGroup;
 import com.nhom9_cp18013.appqlkh.R;
 
 
-public class ListKhachHangFragment extends Fragment {
-
+public class HoaDonNhapFragment extends Fragment {
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_list_khach_hang, container, false);
-        return view;
+        return inflater.inflate(R.layout.fragment_hoa_don_nhap, container, false);
     }
 }
