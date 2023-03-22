@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/nav_chiTietNguoiDung"
-        android:name="com.example.App_quanlykho.ui.NguoiDung.ChiTietNguoiDungFragment"
+        android:name="com.nhom9_cp18013.appqlkh.ui.NguoiDung.ChiTietNguoiDungFragment"
         android:label="fragment_chi_tiet_nguoi_dung"
         tools:layout="@layout/fragment_chi_tiet_nguoi_dung" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/nav_doiMatKhau"
-        android:name="com.example.App_quanlykho.ui.NguoiDung.DoiMatKhauFragment"
+        android:name="com.nhom9_cp18013.appqlkh.ui.NguoiDung.DoiMatKhauFragment"
         android:label="fragment_doi_mat_khau"
         tools:layout="@layout/fragment_doi_mat_khau" >
         <action

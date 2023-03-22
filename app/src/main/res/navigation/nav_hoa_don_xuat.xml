@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/nav_listHDX"
-        android:name="com.example.App_quanlykho.ui.HoaDonXuat.ListHoaDonXuatFragment"
+        android:name="com.nhom9_cp18013.appqlkh.ui.HoaDonXuat.ListHoaDonXuatFragment"
         android:label="fragment_list_hoa_don_xuat"
         tools:layout="@layout/fragment_list_hoa_don_xuat" >
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/nav_addHDX"
-        android:name="com.example.App_quanlykho.ui.HoaDonXuat.AddHoaDonXuatFragment"
+        android:name="com.nhom9_cp18013.appqlkh.ui.HoaDonXuat.AddHoaDonXuatFragment"
         android:label="fragment_add_hoa_don_xuat"
         tools:layout="@layout/fragment_add_hoa_don_xuat" >
         <action
@@ -29,7 +29,7 @@
     </fragment>
     <fragment
         android:id="@+id/nav_editHDX"
-        android:name="com.example.App_quanlykho.ui.HoaDonXuat.EditHoaDonXuatragment"
+        android:name="com.nhom9_cp18013.appqlkh.ui.HoaDonXuat.EditHoaDonXuatragment"
         android:label="fragment_edit_hoa_don_xuat"
         tools:layout="@layout/fragment_edit_hoa_don_xuat" >
         <action
@@ -43,7 +43,7 @@
     </fragment>
     <fragment
         android:id="@+id/nav_chiTietHDX"
-        android:name="com.example.App_quanlykho.ui.HoaDonXuat.ChiTietHoaDonXuatFragment"
+        android:name="com.nhom9_cp18013.appqlkh.ui.HoaDonXuat.ChiTietHoaDonXuatFragment"
         android:label="fragment_chi_tiet_hoa_don_xuat"
         tools:layout="@layout/fragment_chi_tiet_hoa_don_xuat" >
         <action

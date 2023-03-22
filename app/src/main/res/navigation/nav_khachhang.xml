@@ -6,7 +6,7 @@
     app:startDestination="@id/nav_listKH">
     <fragment
         android:id="@+id/nav_listKH"
-        android:name="com.example.App_quanlykho.ui.KhachHang.ListKhachHangFragment"
+        android:name="com.nhom9_cp18013.appqlkh.ui.KhachHang.ListKhachHangFragment"
         android:label="fragment_list_khach_hang"
         tools:layout="@layout/fragment_list_khach_hang">
         <action
@@ -18,7 +18,7 @@
     </fragment>
     <fragment
         android:id="@+id/nav_addKH"
-        android:name="com.example.App_quanlykho.ui.KhachHang.AddKhachHangFragment"
+        android:name="com.nhom9_cp18013.appqlkh.ui.KhachHang.AddKhachHangFragment"
         android:label="Thêm Khách Hàng"
         tools:layout="@layout/fragment_add_khach_hang">
         <action
@@ -28,7 +28,7 @@
     </fragment>
     <fragment
         android:id="@+id/nav_chitietKH"
-        android:name="com.example.App_quanlykho.ui.KhachHang.ChiTietKhachHangFragment"
+        android:name="com.nhom9_cp18013.appqlkh.ui.KhachHang.ChiTietKhachHangFragment"
         android:label="fragment_chi_tiet_khach_hang"
         tools:layout="@layout/fragment_chi_tiet_khach_hang">
         <action
@@ -41,7 +41,7 @@
     </fragment>
     <fragment
         android:id="@+id/nav_editKH"
-        android:name="com.example.App_quanlykho.ui.KhachHang.EditKhachHangFragment"
+        android:name="com.nhom9_cp18013.appqlkh.ui.KhachHang.EditKhachHangFragment"
         android:label="fragment_edit_khach_hang"
         tools:layout="@layout/fragment_edit_khach_hang">
         <action
