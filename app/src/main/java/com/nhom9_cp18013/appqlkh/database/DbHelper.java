@@ -6,11 +6,11 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import androidx.annotation.Nullable;
 
-public class dbHelper extends SQLiteOpenHelper {
+public class DbHelper extends SQLiteOpenHelper {
     public static final String DB_NAME = "MobileManager";
     public static final int VER_SION = 1;
 
-    public dbHelper(Context context) {
+    public DbHelper(Context context) {
         super(context, DB_NAME, null, VER_SION);
     }
 

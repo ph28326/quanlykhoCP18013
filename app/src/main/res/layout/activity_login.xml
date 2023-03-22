@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".LoginActivity">
+
     <ImageView
         android:id="@+id/imgLogoLG"
         android:layout_width="@dimen/logo_with"
@@ -19,7 +21,8 @@
         android:id="@+id/tvHeaderLG"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Nhóm 9"
+        android:fontFamily="@font/font_otomanopeeone"
+        android:text="@string/app_title"
         android:textAlignment="center"
         android:textSize="@dimen/font_sc"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,7 +33,7 @@
         android:id="@+id/tvHeaderLGSP"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Quản lý kho điện tử"
+        android:text="@string/app_title_sub"
         android:textAlignment="center"
         android:textSize="@dimen/font_sc_sp"
         android:textStyle="bold"
@@ -52,8 +55,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvHeaderLGSP"
-        app:startIconDrawable="@drawable/ic_user"
-        >
+        app:startIconDrawable="@drawable/ic_user">
 
         <EditText
             android:id="@+id/edUserName"
@@ -83,7 +85,7 @@
             android:id="@+id/edPassWorld"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Mat khau"
+            android:hint="@string/pass"
             android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -103,6 +105,7 @@
         android:layout_height="@dimen/item_height"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:background="@drawable/custom_btn_login"
         android:text="@string/login"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
@@ -115,6 +118,7 @@
         android:layout_height="@dimen/item_height"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
+        android:background="@drawable/custom_btn_cancel"
         android:text="@string/cancel"
         android:textColor="@color/white"
         android:textStyle="bold"
