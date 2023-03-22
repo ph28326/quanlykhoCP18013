@@ -14,8 +14,8 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="doanh_thu">Doanh thu</string>
     <string name="home">Trang chủ</string>
-    <string name="menu_hd_xuat">Nhập hàng hóa</string>
-    <string name="menu_hd_nhap">Bán hàng</string>
+    <string name="menu_hd_xuat">Xuất hàng hóa</string>
+    <string name="menu_hd_nhap">Nhập hàng hóa</string>
     <string name="san_pham">Sản phẩm</string>
     <string name="app_title">Manager</string>
     <string name="app_title_sub">Quản lý kho</string>

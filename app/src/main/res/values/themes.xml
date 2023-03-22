@@ -11,9 +11,18 @@
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Theme.AppQLKH.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.AppQLKH.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.AppQLKH.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
     <style name="custom_TV">
         <item name="android:gravity">center_vertical</item>
         <item name="android:textColor">@color/black</item>
@@ -23,5 +32,4 @@
         <item name="android:paddingLeft">@dimen/margin</item>
         <item name="android:textColor">@color/black</item>
     </style>
-
 </resources>

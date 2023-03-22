@@ -19,7 +19,7 @@
         android:id="@+id/tvHeaderLG"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Nhóm 8"
+        android:text="Nhóm 9"
         android:textAlignment="center"
         android:textSize="@dimen/font_sc"
         app:layout_constraintEnd_toEndOf="parent"

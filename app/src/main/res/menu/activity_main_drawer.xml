@@ -13,11 +13,11 @@
                     android:icon="@drawable/ic_home"
                     android:title="@string/home" />
                 <item
-                    android:id="@+id/nav_hoaDonXuat"
+                    android:id="@+id/nav_hoaDonNhap"
                     android:icon="@drawable/ic_directions"
                     android:title="@string/menu_hd_xuat" />
                 <item
-                    android:id="@+id/nav_hoaDonNhap"
+                    android:id="@+id/nav_hoaDonXuat"
                     android:icon="@drawable/icon_nhap"
                     android:title="@string/menu_hd_nhap" />
                 <item
