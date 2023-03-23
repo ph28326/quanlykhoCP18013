@@ -13,9 +13,13 @@ import com.nhom9_cp18013.appqlkh.R;
 public class SanPhamFragment extends Fragment {
 
     @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+
+    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_san_pham, container, false);
     }
 }
