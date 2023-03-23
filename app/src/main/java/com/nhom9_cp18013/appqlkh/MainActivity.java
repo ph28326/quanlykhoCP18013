@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
     private DaoNhanVien dao;
     private NhanVienAdapter adapter;
     List<NhanVien> list;
-
+    //xuananh
 
     View mHeaderView;
     TextView tvUser;
