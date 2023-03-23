@@ -51,7 +51,6 @@ public class MainActivity extends AppCompatActivity {
     private NhanVienAdapter adapter;
     List<NhanVien> list;
 
-
     View mHeaderView;
     TextView tvUser;
     TextView tvHello;
