@@ -93,7 +93,7 @@ public class SanPhamAdapter extends RecyclerView.Adapter<SanPhamAdapter.ViewHold
                 holder.tvCTSP.setText("Loại phụ kiện: " + ttSP.getLoaiPhuKien());
             } else {
                 holder.tvPLSP.setText("Loại: Điện thoại  ");
-                holder.tvCTSP.setText("RAM: " + ttSP.getRAM() + "  -  Bộ nhớ: " + ttSP.getBoNho());
+                holder.tvCTSP.setText("RAM: " + ttSP.getRAM()+" GB " + "  -  Bộ nhớ: " + ttSP.getBoNho()+" GB ");
             }
         } else {
             holder.tvPLSP.setText("Chưa cập nhập");
@@ -119,7 +119,7 @@ public class SanPhamAdapter extends RecyclerView.Adapter<SanPhamAdapter.ViewHold
         holder.tvMTSP.setText("Mô tả: " + sanPham.getMoTa());
 
         DecimalFormat formatter = new DecimalFormat("###,###,###");
-        holder.tvGiaTien.setText(formatter.format(sanPham.getGiaTien()) + " đ");
+        holder.tvGiaTien.setText(formatter.format(sanPham.getGiaTien()) + " VND");
 
         if (sanPham.getTrangThai() == 0) {
             holder.tvTrangThai.setText("Chưa lưu kho");

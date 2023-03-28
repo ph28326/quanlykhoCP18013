@@ -42,8 +42,8 @@ public class LoginActivity extends AppCompatActivity {
             nhanVien.setDienThoai("0123456789");
             nhanVien.setTaiKhoan("admin");
             nhanVien.setMatKhau("123456");
-            nhanVien.setDiaChi("Viet Nam");
-            nhanVien.setNamSinh("1234");
+            nhanVien.setDiaChi("Ha Noi");
+            nhanVien.setNamSinh("2003");
             dao.addNV(nhanVien);
         }
         SharedPreferences preferences = getSharedPreferences("USER_FILE", MODE_PRIVATE);
