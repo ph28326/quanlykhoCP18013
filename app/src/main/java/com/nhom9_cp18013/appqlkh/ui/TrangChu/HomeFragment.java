@@ -1,5 +1,6 @@
 package com.nhom9_cp18013.appqlkh.ui.TrangChu;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -24,6 +25,11 @@ public class HomeFragment extends Fragment {
     private TextView tv_SLKH, tv_SLSP, tv_SLHDN, tv_SLHDX, tvsoHD, tv_SLBan, tv_tongsl;
     private LinearLayout ln_KH, ln_SP, ln_HDN, ln_HDX;
     DaoKhachHang daoKH;
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -99,6 +105,7 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 ((MainActivity) getActivity()).setClick(R.id.nav_sanPham);
+
             }
         });
         ln_KH.setOnClickListener(new View.OnClickListener() {
