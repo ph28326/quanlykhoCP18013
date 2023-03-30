@@ -11,11 +11,14 @@ import android.view.ViewGroup;
 import com.nhom9_cp18013.appqlkh.R;
 
 public class HoaDonXuatFragment extends Fragment {
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_hoa_don_xuat, container, false);
     }
 }
