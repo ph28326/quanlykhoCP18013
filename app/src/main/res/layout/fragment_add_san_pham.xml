@@ -377,7 +377,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tilPinSP"
-            app:startIconDrawable="@drawable/ic_type">
+            app:startIconDrawable="@drawable/ic_camera">
 
             <EditText
                 android:id="@+id/edTypeSP"
