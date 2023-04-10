@@ -11,6 +11,10 @@ import android.view.ViewGroup;
 import com.nhom9_cp18013.appqlkh.R;
 
 public class TaiKhoanFragment extends Fragment {
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
